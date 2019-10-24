@@ -13,40 +13,81 @@
          padding:0;
          
       }
+      .header{
+        
+        text-align:center;
+        background-color:#002766;
+        color:#bae7ff;
+      }
+      .eeee {
+         width:200px;
+         vertical-align:top;
+         color:#002766;
+         background-color:#bae7ff; 
+      }
+      .eeee a{
+         text-decoration: none;
+      }
+      a:hover{
+          color:red ;
+          background-color: white;
+      }
+      .fff{
+         border:1px solid black; border-collapse:collapse;
+         width:80%;
+         margin:0 auto;
+          
+      }
 
+      .ooo{
+         text-align:center;
+         background-color:#002766;
+         line-height:64px;
+         color:#bae7ff; 
+      }
+      p{
+          text-indent: 2em;
+      }
+      p:first-letter{
+          font-size: 32px;
+          font-weight: bold;
+      }
+      .re{
+        padding:8px;
+      }
+      tr td:nth-child(2)::before{
+          content: "*";
+      }
 </style>
 
 <body  >
     <table style="width:100%;" border="0"  cellspacing="0" cellpadding="0">
         <tr>
-            <td colspan="2" style="text-align:center;background-color:#002766;color:#bae7ff;">
+            <td colspan="2" class="header" >
                 <h2><img src="http://pic38.nipic.com/20140215/6608733_152748062000_2.jpg    "
-                    style="width:32px;height:32px;line-height:64px;vertical-align:middle;" /><span style="vertical-align:middle;line-height:64px;height:32px;">来杯咖啡吗</span></h2></td>
+                    style="width:32px;height:32px;line-height:64px;vertical-align:middle;" /><span style="vertical-align:middle;line-height:64px;height:32px;">来杯咖啡吗</span>
+                </h2></td>
         </tr>
         <tr>
-            <td style="width:200px;vertical-align:top;color:#002766;background-color:#bae7ff;">
+            <td class="eeee">
                 <ul>
                     <li><a href="#c1">拿铁</a></li>
                     <li><a href="#c2">美式咖啡</a></li>
                     <li><a href="#c3">卡布奇诺</a></li>
-                    <li>
-                        <a href="#c4">焦糖玛奇朵</a>
-                    </li>
+                    <li><a href="#c4">焦糖玛奇朵</a> </li>
                 </ul>
             </td>
-            <td style="padding:8px;">
+            <td class="re">
                 <h2 style="text-align:center;"><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1571740504341&di=3de31086756116f089e659bb2e35e8cd&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F0148ae56ebc61332f875a944cfe42f.jpg" alt="" style="width:80%;">
                     </h2>
-                <table border="1" style="border:1px solid black; border-collapse:collapse;
-                width:80%;
-                margin:0 auto;">
+                <table  border="1"  class="fff";>
                     <tr>
                         <th>咖啡</th>
                         <th>价格</th>
                     </tr>
                     <tr>
                         <td>拿铁</td>
-                        <td>25</td>
+                        <td>25</td> 
                     </tr>
                     <tr>
                         <td>美式咖啡</td>
@@ -87,7 +128,7 @@
             </td>
         </tr>
         <tr>
-            <td colspan="2" style="text-align:center;background-color:#002766;line-height:64px;color:#bae7ff;">&copy; 无锋网络科技有限公司</td>
+            <td colspan="2" class="ooo";>&copy; 无锋网络科技有限公司</td>
         </tr>
     </table>
 </body>
