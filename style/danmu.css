@@ -1,0 +1,54 @@
+
+    #container {
+        position: relative;
+        background-color:wheat;
+    }
+
+    #content {
+        position: relative;
+        border: 1px solid #ccc;
+        height: 500px;
+        width: 100%;
+    }
+
+    #footer {
+        text-align: center;
+    }
+
+    #footer .f-input {
+        line-height: 60px;
+    }
+
+    #footer .f-input input {
+        height: 30px;
+        line-height: 80px;
+        width: 600px;
+        text-align: center;
+    }
+
+    #footer input[type=button] {
+        background-color: brown;
+        border: 1px solid pink;
+        height: 30px;
+        width: 180px;
+    }
+    @keyframes move {
+    0% {
+        right:0;color:blueviolet;
+    }
+    25% {
+        right:25%;color:rosybrown;
+    }
+    50% {
+        right:50%;color:burlywood;
+    }
+    75%{
+        right:75%;color :grey;
+    }
+    90% {
+        right: 90%;color:forestgreen;
+    }
+    100%{
+        right: 120%;color: crimson;
+    }
+}
